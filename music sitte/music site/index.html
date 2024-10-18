@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальный сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на наш музыкальный сайт!</h1>
+    </header>
+
+    <main>
+        <section id="new-releases">
+            <h2>Новые релизы</h2>
+            <div class="album-container">
+                <div class="album-item">
+                    <img src="img/альбом1.png" alt="Альбом 1">
+                    <h3>чай? кофе? потанцуем?</h3>
+                    <p>Amirchik</p>
+                    <button onclick="playAudio('audio1')">Прослушать</bм utton>
+                    <audio id="audio1" src="Read My Lips Time To Party - Everet Almond.mp3"></audio>    
+                </div>
+                <div class="album-item">
+                    <img src="./img/альбом 2.jpg" alt="Альбом 2">
+                    <h3>Diet Mountain Dew</h3>
+                    <p>Lana Del Rey</p>
+                    <button onclick="playAudio('audio2')">Прослушать</button>
+                    <audio id="audio2" src="Read My Lips Time To Party - Everet Almond.mp3"></audio>
+                </div>
+                <div class="album-item">
+                    <img src="./img/альбом3.jpeg" alt="Альбом 3">
+                    <h3>ALIBI</h3>
+                    <p>SEVDALIZA</p>
+                    <button onclick="playAudio('audio3')">Прослушать</button>
+                    <audio id="audio3" src="Read My Lips Time To Party - Everet Almond.mp3"></audio>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="popular-artists">
+            <h2>Популярные артисты</h2>
+            <div class="artist-container">
+                <!-- 5 карточек для популярных артистов -->
+                <div class="artist-item">
+                    <img src="./img/gaga.jpg" alt="Артист 1">
+                    <h3>Lady Gaga</h3>
+                </div>
+                <div class="artist-item">
+                    <img src="./img/biber.jpg" alt="Артист 2">
+                    <h3>Justin Bieber</h3>
+                </div>
+                <div class="artist-item">
+                    <img src="./img/harry.jpg" alt="Артист 3">
+                    <h3>Harry styles</h3>
+                </div>
+                <div class="artist-item">
+                    <img src="./img/ariana.jpg" alt="Артист 4">
+                    <h3>ariana grande</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="top-charts">
+            <h2>Топ Чарты</h2>
+            
+                
+                    <div class="chart-item">
+                        <img src="img/weekend.jpg" alt="The Weeknd">
+                        <h3>Blinding Lights</h3>
+                        <button class="play-button">▶️</button> </div>
+                    <div class="chart-item">
+                        <img src="img/bili.png" alt="Billie Eilish">
+                        <h3>Bad Guy</h3>
+                        <button class="play-button">▶️</button> </div>
+                        <div class="chart-item">
+                            <img src="img/adele.png" alt="Adele">
+                            <h3>Someone Like You</h3>
+                            <button class="play-button">▶️</button> </div>
+                        <div class="chart-item">
+                            <img src="img/ed.jpg" alt="Ed Sheeran">
+                            <h3>Shape of You</h3>
+                            <button class="play-button">▶️</button> </div>
+            
+        </section>
+
+        <section id="genres">
+            <h2>Жанры</h2>
+            <ul>
+                <li>Поп</li>
+                <li>Рок</li>
+                <li>Джаз</li>
+                <li>Классика</li>
+                <li>Хип-хоп</li>
+                <li>Регги</li>
+            </ul>
+        </section>
+
+        <section id="subscribe">
+            <h2>Подпишитесь на наши новости</h2>
+            <form>
+                <input type="email" placeholder="Введите ваш email" required>
+                <button type="submit">Подписаться</button>
+            </form>
+        </section>
+
+        <section id="reviews">
+            <h2>Отзывы пользователей</h2>
+            <div class="review-item">
+                <p>"Отличный сайт, нашел много новой музыки!"</p>
+                <p>- Иван Петров</p>
+            </div>
+            <div class="review-item">
+                <p>"Здесь всегда самые свежие релизы!"</p>
+                <p>- Ольга Смирнова</p>
+            </div>
+        </section>
+
+        <section id="concerts">
+            <h2>Ближайшие концерты</h2>
+            <ul>
+                <li>25 октября - The Weeknd в Москве</li>
+                <li>1 ноября - Billie Eilish в Санкт-Петербурге</li>
+            </ul>
+        </section>
+
+        <section id="social-media">
+            <h2>Мы в социальных сетях</h2>
+            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Контакты: info@music-site.ru</p>
+         <p>Телефон: +996 (704) 255-466</p> 
+         <p>&copy; 2024 Музыкальный сайт</p></footer>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
+
+            
